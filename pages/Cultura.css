@@ -1,0 +1,9 @@
+@import "../css/global.css";
+@import "../css/header.css";
+
+body {
+    background-image: var(--Cultura-bg);
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}

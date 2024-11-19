@@ -1,0 +1,95 @@
+@import "../css/global.css";
+@import "../css/header.css";
+
+body { 
+    backdrop-filter: blur(0.4rem);
+    background-image: var(--Historia-bg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;  
+    height: 100svh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    color: var(--black);
+    font-size: 7rem;
+    font-weight: 600;
+  
+}
+.all {
+    backdrop-filter: blur(0.4rem);
+}
+.primeira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeira img {
+    width: 20rem;
+}
+.primeira p {
+    width: 40rem;
+    font-size: large;
+}
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.segunda img {
+    border-radius: .5rem;
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+.segunda p {
+    display: flex;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: large;
+    width: 20rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 11.5rem;
+    margin-right: -8rem;
+}
+
+.buttom {
+    backdrop-filter: blur(0.4rem);
+}
+
+.buttom a {
+    backdrop-filter: blur(200rem);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.155rem solid var(--white);
+    margin-left: 54.7rem;
+    margin-right: 54.7rem;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+}
+
+.buttom a:hover{
+    color: var(--black);
+    border: 0.2rem solid var(--black);
+    transition: 0.8s;
+}

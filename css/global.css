@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+    font-size: 100.5%;
+    --white: #fff;
+    --black: #000;
+    --Home-bg: url(../img/Home.jpeg);
+    --Historia-bg: url(../img/História.jpeg);
+    --Cultura-bg: url(../img/Cultura.jpeg);
+    --pt-bg: url(../img/PontosTuristicos.jpeg);
+}

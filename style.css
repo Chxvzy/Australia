@@ -1,0 +1,51 @@
+@import "./css/global.css";
+@import "./css/header.css";
+
+body {
+    font-size: 1.6rem;
+    background-image: var(--Home-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20rem;
+    height: 100svh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 13rem;
+    color: var(--white);
+    font-size: 7rem;
+    font-weight: 900;
+}
+
+p {
+    color: var(--white);
+    border-radius: 1.2rem;
+    backdrop-filter: blur(1rem);
+    width: 60rem;
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 30rem;
+    font-size: 1.2rem;
+}
+
+.primeira a {
+    backdrop-filter: blur(224rem);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.155rem solid var(--white);
+    margin-left: 54.7rem;
+    margin-right: 54.7rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+}
+
+.primeira a:hover{
+    color: var(--black);
+    border: 0.2rem solid var(--black);
+    transition: 0.8s;
+}
