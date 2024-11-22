@@ -3,4 +3,113 @@
 
 body {
  background-image: var(--pt-bg);
+ background-size: cover;
+ background-position: center;
+ background-position-y: top;
+ background-repeat: no-repeat no-repeat;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    color: var(--black);
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.all {
+    backdrop-filter: blur(.4rem);
+}
+
+.primeira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+.primeira img {
+    border-radius: .5rem;
+    width: 30rem;
+    height: 18rem;
+}
+.primeira p {
+    border-radius: 2rem;
+    width: 50rem;
+    font-size: larger;
+}
+
+.primeira h2 {
+    margin-top: -12rem;
+}
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.segunda img {
+    border-radius: .5rem;
+    width: 30rem;
+}
+.segunda p {
+    border-radius: 2rem;
+    width: 45rem;
+    font-size: larger;
+}
+
+.segunda h2 {
+    margin-top: -12rem;
+}
+
+.terceira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.terceira img {
+    border-radius: .5rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+.terceira p {
+    border-radius: 2rem;
+    width: 40rem;
+    font-size: larger;
+}
+
+.terceira h2 {
+    margin-top: -10rem;
+}
+
+.buttom {
+    backdrop-filter: blur(0.4rem);
+}
+
+.buttom a {
+    backdrop-filter: blur(200rem);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--black);
+    border: 0.2rem solid var(--black);
+    margin-left: 54.7rem;
+    margin-right: 54.7rem;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    
+}
+
+.buttom a:hover{
+    border: 0.155rem solid var(--white);
+    color: var(--white);
+    transition: 0.8s;
 }
